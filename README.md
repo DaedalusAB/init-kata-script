@@ -1,5 +1,5 @@
 # init-kata-script
-Creates a .Net solution and sets it up for katas.
+Creates a .Net solution in the current directory and sets it up for katas.
 The solution consists of: 
 - Class Library $name
 - xUnit project $name + "Tests"
