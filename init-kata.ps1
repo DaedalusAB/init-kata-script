@@ -1,4 +1,10 @@
-param($name=20)
+param($name, $dir)
+
+if($dir) {
+	echo "Making a new directory for solution..." 
+	mkdir $dir | Out-Null
+	Set-Location -path $dir
+}
 
 $slnName = $name 
 $slnNameFull = $slnName + ".sln"
