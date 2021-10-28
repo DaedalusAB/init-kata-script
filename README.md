@@ -10,7 +10,7 @@ Required
 
 
 # Example:
-./init-kata.ps1 -name MarsRover
+./init-kata.ps1 -name MarsRover  
 ./init-kata.ps1 -name FizBuzz
 
 # Setup:
