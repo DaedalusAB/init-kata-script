@@ -14,5 +14,5 @@ Required
 ./init-kata.ps1 -name FizBuzz
 
 # Setup:
-Store the .ps1 file where you want to on your system (ie. C:/Scripts)
+Store the .ps1 file where you want to on your system (ie. C:/Scripts)  
 Edit your Environment Path value by adding that path
