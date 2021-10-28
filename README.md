@@ -1,19 +1,18 @@
 # init-kata-script
-Creates a .Net solution in the given directory and sets it up for katas.
+Creates a .Net solution in the current directory and sets it up for katas.
 The solution consists of: 
 - Class Library $name
-- xUnit project $name + "Tests"
-
-Class library will be referenced by xUnit project
+- xUnit project $name + "Tests", that references the class library
 
 # Params:
 ## -name
 Required
 
-## -dir
-If not specified, current folder will be used
 
 # Example:
+./init-kata.ps1 -name MarsRover
+./init-kata.ps1 -name FizBuzz
 
-./init-kata.ps1 -name TestKata
-./init-kata.ps1 -name TestKata -dir TestDir
+# Setup:
+Store the .ps1 file where you want to on your system (ie. C:/Scripts)
+Edit your Environment Path value by adding that path
